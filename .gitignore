@@ -1,0 +1,26 @@
+#rules
+.trae/
+
+#project plan & workflow
+plan/
+
+#gradle build artifacts
+build/
+.gradle/
+gradle/build/
+
+#minecraft run artifacts
+run/
+logs/
+
+#compiled class files
+*.class
+
+#IDE configs and caches
+.vscode/
+.eclipse/
+.idea/
+build-logic/.kotlin/
+
+#keep gradle wrapper (do not ignore)
+!gradle/wrapper/gradle-wrapper.jar
